@@ -29,7 +29,7 @@ Don't worry :slightly_smiling_face: Just hit Alt-K to generate /Drivers/CMCIS/ a
 
 # Tools
 Some IPCs also sent their own frames. For example, when you navigate the menu on your IPC it may distribute your choices to other components of the system such as the center console. In our case the instrument cluster shares the information about your preferences regarding e.g. temperature and distance units. It is convenient to use a bus sniffer to catch that part of the communication. Here are some tools from my home lab that work for me:
-* a (https://sigrok.org/wiki/Supported_hardware)[logic analyzer] compatible with [PulseView](https://sigrok.org/wiki/PulseView) (approx. 10 EUR),
+* a [logic analyzer](https://sigrok.org/wiki/Supported_hardware) compatible with [PulseView](https://sigrok.org/wiki/PulseView) (approx. 10 EUR),
 * [Arduino SLCAN monitor](https://github.com/latonita/arduino-canbus-monitor) (MIT license) plus [SavvyCAN](https://www.savvycan.com/) (approx. 10 EUR),
 * [CANable 2.0](https://makerbase3d.com/product/makerbase-canable-v2/) plus [Cangaroo](https://canable.io/getting-started.html#cangaroo) (under 20 EUR mark),
 
